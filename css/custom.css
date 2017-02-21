@@ -204,3 +204,25 @@ body {
         font-size: 18px;
     }
 }
+
+/* footer */
+.social-footer {
+    height: 4rem;
+    width: 4rem;
+    margin: 0 auto;
+}
+
+.footer-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-text > h4 {
+    color: #B3D8FD !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .footer-container {
+        margin-top: -19.5rem;
+    }
+}
