@@ -5,4 +5,8 @@ $(document).ready(function () {
             // backdrop: false
         })
     });
+
+    $(".nav-btn").click(function () {
+        $("#navbarModal").modal('hide');
+    });
 });

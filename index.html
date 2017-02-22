@@ -17,7 +17,7 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    <body>
+    <body data-spy="scroll" data-target="#site-nav">
         <!-- navigation bar --->
         <nav class="navbar navbar-default navbar-fixed-top" style="margin-bottom: 0; min-height: 5vh; ">
             <div class="container">
@@ -30,13 +30,13 @@
                     <a class="navbar-brand" href="#">Twiga Foods</a>
                 </div>
 
-                <div class="collapse navbar-collapse">
+                <div class="collapse navbar-collapse" id="site-nav">
                     <ul class="nav navbar-nav navbar-right">
-                        <li><a href="#">HOME</a></li>
-                        <li><a href="#">OUR VALUE</a></li>
-                        <li><a href="#">PRODUCTS</a></li>
-                        <li><a href="#">TEAM</a></li>
-                        <li><a href="#">CONTACT</a></li>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#values">OUR VALUE</a></li>
+                        <li><a href="#products">PRODUCTS</a></li>
+                        <li><a href="#team">TEAM</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
                     </ul>
                 </div>
             </div>
@@ -292,13 +292,13 @@
                         </button>
                     </div>
 
-                    <div class="modal-body text-center">
+                    <div class="modal-body text-center" id="site-nav">
                         <ul class="nav nav-pills nav-stacked" style="font-size: 25px;">
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">OUR VALUE</a></li>
-                            <li><a href="#">PRODUCTS</a></li>
-                            <li><a href="#">TEAM</a></li>
-                            <li><a href="#">CONTACT</a></li>
+                            <li><a href="#home" class="nav-btn">HOME</a></li>
+                            <li><a href="#values" class="nav-btn">OUR VALUE</a></li>
+                            <li><a href="#products" class="nav-btn">PRODUCTS</a></li>
+                            <li><a href="#team" class="nav-btn">TEAM</a></li>
+                            <li><a href="#contact" class="nav-btn">CONTACT</a></li>
                         </ul>
                     </div>
                 </div>
